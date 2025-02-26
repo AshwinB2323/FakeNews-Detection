@@ -8,7 +8,7 @@ This project is part of a **Deep Learning Course**, fulfilling the requirement o
 ---
 
 ## Datasets
-We use three datasets for fake news classification:
+I use three datasets for fake news classification:
 
 1. **CoAID** (COVID-19 Healthcare Misinformation Dataset)  
    - Includes news articles and tweets related to COVID-19 misinformation.  
