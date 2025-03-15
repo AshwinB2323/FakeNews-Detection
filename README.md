@@ -43,7 +43,7 @@ LIAR	                0.30	   0.50	    0.37	     0.60
 ## Visualization of Model Performance
 I visualized the classification results using:
 
-**Bar Plots of Accuracy and F1-scores**
+**Bar Plots of Average Model Performance**
 
 
 <img width="610" alt="Screenshot 2025-03-14 at 5 03 03 PM" src="https://github.com/user-attachments/assets/998c4e81-b3b8-4024-ba20-32f46e018d86" />
@@ -58,6 +58,13 @@ I visualized the classification results using:
 
 
 **LIME Analysis for Model Explainability**
+
+
+<img width="775" alt="Screenshot 2025-03-14 at 7 25 33 PM" src="https://github.com/user-attachments/assets/b6656700-aef3-459d-8194-3fe7a8a7bcca" />
+<img width="749" alt="Screenshot 2025-03-14 at 7 25 40 PM" src="https://github.com/user-attachments/assets/68a97e3c-d4e5-4ef8-971d-812a3f39b15d" />
+<img width="814" alt="Screenshot 2025-03-14 at 7 25 46 PM" src="https://github.com/user-attachments/assets/ff4018d5-1f31-406c-8abe-a68b232f3464" />
+
+
 
 
 
