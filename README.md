@@ -1,15 +1,15 @@
 # Fake News Detection with RoBERTa
 This project aims to evaluate the effectiveness of a RoBERTa-based model for detecting fake news by training and testing on three different datasets: ISOT, FakeNews-Kaggle, and LIAR. The goal is to determine which dataset leads to the best generalizability in fake news detection.
 
-## Project Purpose**
+## Project Purpose
 The rise of misinformation has made automated fake news detection an important task. This project explores the effectiveness of using a RoBERTa model for binary classification (real vs. fake) by training separate models on three datasets. The results are evaluated using precision, recall, F1-score, accuracy, and explainability techniques like LIME analysis.
 
-## Datasets Used**
+## Datasets Used
 The project utilizes the following datasets:
 
-**ISOT**: A dataset containing fake and real news articles.
-**FakeNews-Kaggle**: A dataset sourced from Kaggle with manually labeled news headlines.
-**LIAR**: A dataset containing fact-checked political statements.
+**ISOT**: A dataset containing fake and real news articles. (Source - https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/)
+**FakeNews-Kaggle**: A dataset sourced from Kaggle with manually labeled news headlines. (Source - https://www.kaggle.com/c/fake-news/data)
+**LIAR**: A dataset containing fact-checked political statements. (Source - https://paperswithcode.com/dataset/liar)
 
 Each dataset was preprocessed and tokenized before training.
 
@@ -44,13 +44,14 @@ LIAR	                0.30	   0.50	    0.37	     0.60
 I visualized the classification results using:
 
 **Bar Plots of Accuracy and F1-scores**
+<img width="610" alt="Screenshot 2025-03-14 at 5 03 03 PM" src="https://github.com/user-attachments/assets/998c4e81-b3b8-4024-ba20-32f46e018d86" />
 
 **Line Plots Comparing Precision, Recall, and F1-score**
 
 **LIME Analysis for Model Explainability**
 
 ## LIME Analysis
-A LIME (Local Interpretable Model-Agnostic Explanations) analysis was conducted on five sample titles to explain why the models classified certain news as real or fake. However, some models, particularly those trained on ISOT and FakeNews-Kaggle, exhibited biases towards classifying certain news as real or fake.
+A LIME (Local Interpretable Model-Agnostic Explanations) analysis was conducted on five sample titles to explain why the models classified certain news as real or fake. However, some models, particularly those trained on ISOT and FakeNews-Kaggle, exhibited biases towards classifying certain news as real or fake. Unfortunately, the LINE Analysis graphs do not show up in the evaluation notebook preview on this github, however the code generates graphs and you are welcome to try it out for yourself. Example graphs have been attached above for reference.
 
 ## Limitations
 Dataset Bias: Some datasets had class imbalances, impacting model predictions.
