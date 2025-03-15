@@ -44,11 +44,22 @@ LIAR	                0.30	   0.50	    0.37	     0.60
 I visualized the classification results using:
 
 **Bar Plots of Accuracy and F1-scores**
+
+
 <img width="610" alt="Screenshot 2025-03-14 at 5 03 03 PM" src="https://github.com/user-attachments/assets/998c4e81-b3b8-4024-ba20-32f46e018d86" />
+
+
 
 **Line Plots Comparing Precision, Recall, and F1-score**
 
+
+<img width="669" alt="Screenshot 2025-03-14 at 5 02 38 PM" src="https://github.com/user-attachments/assets/ca5d7d5e-9aef-4c9f-9a85-831e8e243090" />
+
+
+
 **LIME Analysis for Model Explainability**
+
+
 
 ## LIME Analysis
 A LIME (Local Interpretable Model-Agnostic Explanations) analysis was conducted on five sample titles to explain why the models classified certain news as real or fake. However, some models, particularly those trained on ISOT and FakeNews-Kaggle, exhibited biases towards classifying certain news as real or fake. Unfortunately, the LINE Analysis graphs do not show up in the evaluation notebook preview on this github, however the code generates graphs and you are welcome to try it out for yourself. Example graphs have been attached above for reference.
