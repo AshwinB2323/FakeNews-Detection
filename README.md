@@ -61,15 +61,25 @@ Hardware Constraints: Running evaluations on a CPU was time-consuming.
 ## Repository Structure
 FakeNews-Detection/
 │── models.py             # Code for defining and loading RoBERTa models
+
 │── dataset.py            # Dataset processing class
+
 │── train_models.py       # Training script for RoBERTa models
+
 │── data/
+
 │   ├── processed_ISOT.csv
+
 │   ├── processed_FakeNews.csv
+
 │   ├── processed_LIAR.csv
+
 │── notebooks/
+
 │   ├── data_demo.ipynb   # Demonstrates dataset processing
+
 │   ├── evaluation.ipynb  # Evaluates models & visualizes results
+
 │── README.md             # Project documentation
 
 ## How to Run the Evaluation
