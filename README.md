@@ -8,7 +8,9 @@ The rise of misinformation has made automated fake news detection an important t
 The project utilizes the following datasets:
 
 **ISOT**: A dataset containing fake and real news articles. (Source - https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/)
+
 **FakeNews-Kaggle**: A dataset sourced from Kaggle with manually labeled news headlines. (Source - https://www.kaggle.com/c/fake-news/data)
+
 **LIAR**: A dataset containing fact-checked political statements. (Source - https://paperswithcode.com/dataset/liar)
 
 Each dataset was preprocessed and tokenized before training.
